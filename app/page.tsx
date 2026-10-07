@@ -9,9 +9,7 @@ import {
   FileText,
   Image as ImageIcon,
   LoaderCircle,
-  PenLine,
   RefreshCcw,
-  ShieldCheck,
   Upload,
 } from "lucide-react";
 
@@ -390,12 +388,6 @@ export default function Home() {
 
   return (
     <main className="app-shell">
-      <header className="topbar">
-        <div className="brand-mark" aria-hidden="true"><FileText size={21} strokeWidth={2.2} /></div>
-        <div><h1>学生请假材料生成器</h1><p>填写一次，自动生成三份材料</p></div>
-        <div className="privacy-note"><ShieldCheck size={17} /><span>信息与签名仅在当前设备处理</span></div>
-      </header>
-
       <section className="workspace">
         <aside className="editor-panel">
           <div className="panel-heading">
